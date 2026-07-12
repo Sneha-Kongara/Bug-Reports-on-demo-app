@@ -1,0 +1,39 @@
+BUG-004
+
+Module:
+Language / Localization
+
+Environment:
+Application: OWASP Juice Shop
+Browser: Google Chrome
+Operating System: Windows 11
+
+Description:
+When changing the application language, only certain UI elements (such as the "Add to Basket" button) are translated. Product names remain in the original language instead of changing according to the selected language, resulting in inconsistent localization.
+
+Preconditions:
+User has opened the OWASP Juice Shop application.
+The application is loaded successfully.
+
+Steps to Reproduce:
+Open the OWASP Juice Shop application.
+Click the Language selector.
+Select a different language (e.g., German, French, Spanish).
+Observe the product listing page.
+Compare the translated UI elements with the product names.
+
+Expected Result:
+All supported user interface elements should be translated consistently according to the selected language. If product names are intended to be localized, they should also appear in the selected language.
+
+Actual Result:
+Only some UI elements (such as "Add to Basket") are translated, while product names remain in the original language, resulting in inconsistent language presentation.
+
+Severity:
+Low
+
+Priority:
+Medium
+
+Bug Type:
+Localization (Internationalization) Bug
+UI Consistency Bug
