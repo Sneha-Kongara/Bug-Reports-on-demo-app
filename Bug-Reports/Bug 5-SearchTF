@@ -1,0 +1,34 @@
+BUG-005
+
+Module:
+Search field
+
+Environment:
+Application: OWASP Juice Shop
+Browser: Google Chrome
+Operating System: Windows 11
+
+Description:
+The search text remains in the search field even after navigating to another page, which may confuse users.
+
+Preconditions:
+User is logged into the application.
+Search bar is accessible.
+
+Steps to Reproduce:
+Open the Juice Shop application.
+Search for Apple.
+Navigate to another page (e.g., Basket or Contact Us).
+Return to the Home page.
+
+Expected Result:
+The search field should be cleared when navigating away or returning to the Home page.
+
+Actual Result:
+The previous search keyword remains in the search field.
+
+Severity:
+Low
+
+Priority:
+Low
