@@ -1,0 +1,31 @@
+BUG-001
+
+Module:
+Login
+
+Environment:
+Chrome 138
+Windows 11
+
+Description:
+Login page displays raw HTML instead of a proper error page.
+
+Preconditions:
+User should be on the Login page.
+
+Steps to Reproduce:
+1. Open the application.
+2. Navigate to the Login page.
+3. Observe the page.
+
+Expected Result:
+The application should display the Login page or a user-friendly error message.
+
+Actual Result:
+Raw HTML content is displayed.
+
+Severity:
+High
+
+Priority:
+High
