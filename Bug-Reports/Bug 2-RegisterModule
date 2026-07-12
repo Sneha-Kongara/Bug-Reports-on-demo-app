@@ -1,0 +1,35 @@
+BUG-002
+
+Module:
+Registration
+
+Environment:
+Application: OWASP Juice Shop
+Browser: Google Chrome
+Operating System: Windows 10/11
+
+Description:
+The Security Question dropdown on the Registration page does not display any options when clicked, preventing users from selecting a security question during account registration.
+
+Preconditions:
+User has to open the Registration page.
+Registration form is loaded successfully.
+
+Steps to Reproduce:
+Open the OWASP Juice Shop application.
+Click Not yet a customer? to open the Registration page.
+Fill in the required registration fields.
+Click the Security Question dropdown.
+Observe the behavior.
+
+Expected Result:
+The Security Question dropdown should expand and display the available security questions for selection.
+
+Actual Result:
+The Security Question dropdown does not open, and no options are displayed.
+
+Severity:
+High
+
+Priority:
+High
