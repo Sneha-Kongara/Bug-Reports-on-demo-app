@@ -17,11 +17,13 @@ This repository contains manual bug reports identified while testing the **OWASP
 
 ## Bugs Reported
 
-| Bug ID | Module | Bug Summary | Severity |
-|--------|--------|-------------|----------|
-| BUG-001 | Login | Login page displays raw HTML instead of a user-friendly error page | High |
-| BUG-002 | Registration | Security Question dropdown does not display available options | High |
-| BUG-003 | Login | Password field does not allow users to paste copied passwords | Medium |
+| Bug ID | Module | Bug Summary | Severity | Priority |
+|--------|--------|-------------|----------|----------|
+| BUG-001 | Login | Login page displays raw HTML instead of a user-friendly error page | High | High |
+| BUG-002 | Registration | Security Question dropdown does not display available options | High | High |
+| BUG-003 | Login | Password field does not allow users to paste copied passwords | Medium | Medium |
+| BUG-004 | Localization|Language change is inconsistent across the application UI | Low | Medium |
+| BUG-005 | Navigation/Search | Search value is retained after page navigation, affecting usability | Low | Low |
 
 ## Learning Outcomes
 - Manual Test Execution
