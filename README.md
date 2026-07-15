@@ -44,20 +44,6 @@ Each bug report includes:
 | BUG-004 | Localization | Language switching is inconsistent across UI elements | Low | Medium |
 | BUG-005 | Search / Navigation | Search keyword remains after page navigation | Low | Low |
 
-## Repository Structure
-```
-OWASP-JuiceShop-Bug-Reports/
-│
-├── README.md
-├── OWASP_JuiceShop_Bug_Reports.xlsx
-└── Screenshots/
-    ├── BUG-001.png
-    ├── BUG-002.png
-    ├── BUG-003.png
-    ├── BUG-004.png
-    └── BUG-005.png
-```
-
 ## Tools Used
 - Google Chrome
 - Microsoft Excel
